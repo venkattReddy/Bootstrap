@@ -1,0 +1,176 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Website Tutorials</title>
+       <!--  bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- font awesome file -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- jquery file -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- bootstrap js file -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- custom style -->
+        <link rel="stylesheet" href="css/myStyle.css">
+        <script src="jss/angular.min.js"></script>
+        <script src="jss/angular-route.min.js"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse">  <!--navbar starts-->
+    <div class="container-fluid">     <!--container fluid starts-->
+
+    <div class="navbar-header"> <!--iocn bar starts here-->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        <a class="navbar-brand" href="#"><img src="images/w3newbie-logo-grey.png" height="54" width="185"/></a>
+    </div>                      <!--iocn bar ends here-->
+
+        <div class="collapse navbar-collapse" id="myNavbar"> <!--menu starts here-->
+         <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Service</a></li>
+             <li><a href="#">Testimonial</a></li>
+             <li><a href="#">Contact</a></li>
+         </ul>
+        </div>   <!--menu ends here-->
+
+    </div>   <!--container fluid ends-->
+    </nav>  <!--navbar ends-->
+
+    <div class="carousel slide" data-ride="carousel" id="#myCarousel"> <!--carousel Starts-->
+
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#myCarousel" data-slide="0"></li>
+            <li  data-target="#myCarousel" data-slide="1"></li>
+            <li  data-target="#myCarousel" data-slide="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox"> <!--list box starts-->
+        <div class="item active"> <!--item starts-->
+            <img src="images/chicago.jpg" height="200" width="100%"/>
+            <div class="carousel-caption">
+                <h2>Get to Know Bootstrap1</h2>
+                <br>
+                <button class="btn btn-default">Get Started</button>
+            </div>
+        </div> <!--item ends-->
+
+            <div class="item"> <!--item starts-->
+                <img src="images/la.jpg" height="200" width="100%"/>
+                <div class="carousel-caption">
+                    <h2>Get to Know Bootstrap2</h2>
+                </div>
+            </div> <!--item ends-->
+
+            <div class="item"> <!--item starts-->
+                <img src="images/ny.jpg" height="200" width="100%"/>
+                <div class="carousel-caption">
+                    <h2>Get to Know Bootstrap3</h2>
+                </div>
+            </div> <!--item ends-->
+
+        </div>   <!--list box ends-->
+       <!-- carousel controllers starts-->
+        <a class="left carousel-control"href="#myCarousel" role="button" data-slide="prev" >
+            <sapn class="glyphicon glyphicon-chevron-left" aria-hidden="true"></sapn>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" >
+            <sapn class="glyphicon glyphicon-chevron-right" aria-hidden="true"></sapn>
+            <span class="sr-only">Next</span>
+        </a>
+        <!-- carousel controllers ends-->
+    </div>  <!--carousel ends-->
+
+    <div class="container text-center">
+    <h2>What We Get</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/bootstrap.png" height="194" width="259" id="icon"/>
+                <h2>HTML5</h2>
+        </div>
+            <div class="col-sm-4">
+                <img src="images/bootstrap.png" height="194" width="259" id="icon"/>
+                <h2>BOOTSTRAP</h2>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/bootstrap.png" height="194" width="259" id="icon"/>
+                <h2>CSS3</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container"> <!--two cloum container starts-->
+        <div class="row">
+
+            <div class="col-md-6">
+            <h2>DummyText</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+                    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    Etiam ultricies nisi vel augue.</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/css3.png" height="225" width="225"/>
+            </div>
+        </div>
+    </div>  <!--two cloum container ends-->
+
+    <div class="container">
+    <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h2>SASS</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <img src="images/sass.png" height="131" width="383"/>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h2>LESS</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <img src="images/less.png" height="138" width="250"/>
+        </div>
+    </div>
+    </div>
+
+    <!--footer starts-->
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Contact us</h2><br>
+                <h4>Our Address And Contact Info</h4>
+            </div>
+
+            <div class="col-sm-4">
+                <h2>Connect</h2><br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="images/bunny1.jpg" height="195" width="259" class="img-responsive"/>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+    </body>
+    </html>
